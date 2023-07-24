@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84ca2583-5fee-494d-baab-e622da1d7ad5" name="Changes" comment="add: docker">
-      <change afterPath="$PROJECT_DIR$/src/components/home/MinhasTec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/MinhasTech.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/MinhasTec.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Sobre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Sobre.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +58,8 @@
       <workItem from="1690072462267" duration="8129000" />
       <workItem from="1690136226399" duration="2244000" />
       <workItem from="1690160116147" duration="4193000" />
-      <workItem from="1690222090707" duration="2207000" />
+      <workItem from="1690222090707" duration="5011000" />
+      <workItem from="1690227391934" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="add: docker">
       <created>1690223528263</created>
