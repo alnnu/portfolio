@@ -1,4 +1,5 @@
 export default function Sobre() {
+    const info: string = "Olá👋, me chamo Luann Felipe, mas pode me chamar apenas de Alnnu, tenho 20 anos. Atualmente estou cursando o 6 período de ciência da computação no IFG Anápolis"
     return (
         <div>
             <div className="flex justify-center">
@@ -10,7 +11,7 @@ export default function Sobre() {
             </div>
             <div className="text-center">
                 <h2 className="text-3xl font-bold mt-4">Luann Felipe</h2>
-                <p>Olá👋, me chamo Luann Felipe, mas pode me chamar apenas de Alnnu, tenho 20 anos.<br/> Atualmente estou cursando o 6 período de ciência da computação no IFG Anápolis</p>
+                <p className="text-xl mx-52">{info}</p>
             </div>
         </div>
     )
