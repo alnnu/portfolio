@@ -1,22 +1,6 @@
 ARG PLATFORM=linux/arm64
 ARG IMAGE=arm64v8/node:18-alpine
 
-FROM node:18-alpine AS base
-
-WORKDIR app/
-
-COPY package*.json ./
-
-RUN npm install
-
-COPY ./ ./
-
-EXPOSE 3000
-
-CMD ["npm", "run", "dev"]
-
-
-
 FROM --platform=$PLATFORM $IMAGE AS build
 
 WORKDIR /app
@@ -32,7 +16,7 @@ RUN npm run build \
 ##############################################
 
 
-FROM  --platform=linux/arm64 arm64v8/node:18-alpine as prodution
+FROM  --platform=linux/arm64 arm64v8/node:18-alpine
 
 WORKDIR /app
 
