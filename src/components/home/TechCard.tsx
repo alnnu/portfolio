@@ -12,8 +12,6 @@ export default function TechCard({ techName, techSvg }) {
                     <h2 className="card-title">{techName}</h2>
                 </div>
             </div>
-
-
         </div>
     )
 }

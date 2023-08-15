@@ -11,8 +11,7 @@ export default function Header() {
                     <ul className="menu menu-horizontal px-1">
                         <li><Link href="#" className="text-xl hover:underline">home</Link></li>
                         <li><Link href="#" className="text-xl hover:underline">sobre</Link></li>
-                        <li><Link href="#" className="text-xl hover:underline">portifolio</Link></li>
-                        <li><Link href="#" className="text-xl hover:underline">servisos</Link></li>
+                        <li><Link href="#" className="text-xl hover:underline">projetos</Link></li>
                     </ul>
                 </div>
             </div>

@@ -11,7 +11,7 @@ export default function Sobre() {
             </div>
             <div className="text-center">
                 <h2 className="text-3xl font-bold mt-4">Luann Felipe</h2>
-                <p className="text-xl mx-24">{info}</p>
+                <p className="text-2xl mx-24">{info}</p>
             </div>
         </div>
     )
