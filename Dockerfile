@@ -43,8 +43,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build \
-    && npm prune
+RUN npm run build
 
 ##############################################
 
