@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ca2583-5fee-494d-baab-e622da1d7ad5" name="Changes" comment="add: docker">
-      <change afterPath="$PROJECT_DIR$/src/components/home/MinhasTech.tsx" afterDir="false" />
+    <list default="true" id="84ca2583-5fee-494d-baab-e622da1d7ad5" name="Changes" comment="docker">
+      <change afterPath="$PROJECT_DIR$/public/arduino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/benser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/chatapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/ProjetoCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Projetos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/MinhasTec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Sobre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Sobre.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,17 @@
       <workItem from="1690136226399" duration="2244000" />
       <workItem from="1690160116147" duration="4193000" />
       <workItem from="1690222090707" duration="5011000" />
-      <workItem from="1690227391934" duration="999000" />
+      <workItem from="1690227391934" duration="1660000" />
+      <workItem from="1691197142599" duration="2471000" />
+      <workItem from="1691587469179" duration="5723000" />
+      <workItem from="1691698241899" duration="3266000" />
+      <workItem from="1691776003654" duration="3800000" />
+      <workItem from="1692047769152" duration="6986000" />
+      <workItem from="1692381207899" duration="1257000" />
+      <workItem from="1692701595165" duration="359000" />
+      <workItem from="1692733152665" duration="256000" />
+      <workItem from="1692737784601" duration="119000" />
+      <workItem from="1693855351867" duration="1072000" />
     </task>
     <task id="LOCAL-00001" summary="add: docker">
       <created>1690223528263</created>
@@ -68,7 +82,49 @@
       <option name="project" value="LOCAL" />
       <updated>1690223528263</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="att: docker">
+      <created>1691592646726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691592646726</updated>
+    </task>
+    <task id="LOCAL-00003" summary="att: docker">
+      <created>1691592721587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691592721587</updated>
+    </task>
+    <task id="LOCAL-00004" summary=".">
+      <created>1691700263565</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691700263565</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add: projetos; minor changes">
+      <created>1692134651695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692134651695</updated>
+    </task>
+    <task id="LOCAL-00006" summary=".">
+      <created>1692381537730</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692381537730</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docker">
+      <created>1692381919996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692381919996</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +132,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: docker" />
+    <MESSAGE value="att: docker" />
+    <MESSAGE value="add: projetos; minor changes" />
+    <MESSAGE value="." />
+    <MESSAGE value="docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker" />
   </component>
 </project>
