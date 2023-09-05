@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84ca2583-5fee-494d-baab-e622da1d7ad5" name="Changes" comment="docker">
-      <change afterPath="$PROJECT_DIR$/public/arduino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/benser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/chatapp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/ProjetoCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/Projetos.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Footer.tsx" afterDir="false" />
+    <list default="true" id="84ca2583-5fee-494d-baab-e622da1d7ad5" name="Changes" comment="add:footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/MinhasTech.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/MinhasTech.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Projetos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Projetos.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,9 +32,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/luann/Documents/projetos/portfolio/src/components/home&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -43,6 +47,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luann\Documents\projetos\portfolio\src\components\home" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\luann\Documents\projetos\portfolio" />
     </key>
@@ -73,7 +80,9 @@
       <workItem from="1692701595165" duration="359000" />
       <workItem from="1692733152665" duration="256000" />
       <workItem from="1692737784601" duration="119000" />
-      <workItem from="1693855351867" duration="1072000" />
+      <workItem from="1693855351867" duration="3440000" />
+      <workItem from="1693918340348" duration="5622000" />
+      <workItem from="1693945449939" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="add: docker">
       <created>1690223528263</created>
@@ -124,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692381919996</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add:projetos">
+      <created>1693856481799</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693856481799</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add:footer">
+      <created>1693856598137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693856598137</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +159,8 @@
     <MESSAGE value="add: projetos; minor changes" />
     <MESSAGE value="." />
     <MESSAGE value="docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker" />
+    <MESSAGE value="add:projetos" />
+    <MESSAGE value="add:footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:footer" />
   </component>
 </project>

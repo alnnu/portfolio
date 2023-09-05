@@ -13,7 +13,7 @@ export default function Projetos() {
 
 
     return (<>
-        <div className="mt-14 mx-24">
+g        <div className="mt-14 mx-24 mb-32">
             <div>
                 <h2 className="text-5xl font-bold">Meus <br/> Projetos</h2>
                 <div className="flex mt-5 mb-10">

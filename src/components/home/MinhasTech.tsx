@@ -15,7 +15,7 @@ export default function MinhasTech() {
         ]
 
     return (
-        <div className="mt-14">
+        <div className="mt-14 ">
             <div className="mb-12">
                 <h2 className="text-center text-3xl font-bold">Minhas Tecnologias</h2>
             </div>
