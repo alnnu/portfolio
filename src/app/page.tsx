@@ -11,7 +11,7 @@ export default function Home() {
           <div className="text-2xl mb-3">
             Ola!! Sou <span className="text-primery">Alnnu</span>
           </div>
-          <div className="text-7xl font-bold mb-7">
+          <div className="text-8xl font-bold mb-7">
             Fullstack <br/>Developer
           </div>
           <div className="text-2xl">
@@ -29,11 +29,20 @@ export default function Home() {
             <Image
               src="/me.jpeg"
               className="rounded-full"
-              width={300}
-              height={300}
+              width={320}
+              height={320}
               alt="Picture of the author"
             />
           </div>
+        </div>
+      </div>
+
+      <div className="mt-96" id="Sobre">
+        <h1 className="text-6xl font-bold mb-8 border-b border-primery pb-3 text">Sobre</h1>
+        <div className="text-xl text-justify">
+          <p>Ola, me chamo Luann Felipe, mas pode me chamar de Alnnu. Na minha infância eu adquiri a curiosidade sobre como as coisa funcionam, por isso vivia desmontando controles, carrinhos, entre outras coisa.</p>
+          <p className="mt-3 text-justify">Essa curiosidade que futuramente se tornou o amor que sinto pela a computação e suas áreas. Sendo assim, comecei a estudar a estudar programação.</p>
+          <p className="mt-3 text-justify">Atualmente estou cursando ciência da computação no IFG de Anápolis e participo de um grupo de freelancers chamado Grupo Crias.</p>
         </div>
       </div>
    </main>
