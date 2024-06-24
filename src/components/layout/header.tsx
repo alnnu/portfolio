@@ -14,7 +14,7 @@ const Header = () => {
                         <a href="#" className="mx-5 hover:text-primery">Experiencias</a>
                         <a href="#" className="mx-5 hover:text-primery" >Projetos</a>
                     </div>
-                    <div className="flex flex-1 justify-end text-2xl    ">
+                    <div className="flex flex-1 justify-end text-2xl">
                         <BiMessageSquareDots />
                     </div>
                 </div>
