@@ -3,14 +3,16 @@ import Image from "next/image";
 import { FaInstagram, FaGithub } from "react-icons/fa6";
 import { BiMailSend } from "react-icons/bi";
 import Experiencias from "@/components/experiencias";
+import Habilidades from "@/components/habilidadesCard";
 
 export default function Home() {
+  const habilidades = [{nome: "frontend", techs:["HTML", "CSS", "Javascript", "Nextjs", "TailWind"]}, {nome: "Backend", techs:["NodeJs", "ExpressJs", "AdonisJs", "Spring", "Postgres"]}, {nome: "Dev-Ops", techs:["Docker", "Nginx", "Git"]}, {nome: "Mobile", techs:["React Native"]}]
   return (
    <main>
       <div className="flex mt-52 h-96">
         <div className="flex w-1/2 flex-col align-middle">
           <div className="text-2xl mb-3">
-            Ola!! Sou <span className="text-primery">Alnnu</span>
+            Ola!! Sou <span className="text-primery">Luann</span>
           </div>
           <div className="text-8xl font-bold mb-7">
             Fullstack <br/>Developer
@@ -48,6 +50,18 @@ export default function Home() {
       </div>
 
       <Experiencias/>
+
+      <div className="mt-48" id="Habilidades">
+        <h1 className="text-6xl font-bold mb-8 border-b border-primery pb-3 text">Habilidades</h1>
+        <div className="grid grid-cols-2 gap-x-48 gap-y-32">
+          {
+            habilidades.map((habilidade, index: number) => (
+              <Habilidades nome={habilidade.nome} techs={habilidade.techs}/>
+            ))
+          }
+        </div>
+      </div>
+
    </main>
   );
 }
