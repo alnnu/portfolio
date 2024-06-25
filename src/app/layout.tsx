@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "Alnnu",
-  description: "Portfolio de alnnu",
+  description: "Portfolio do alnnu",
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="latin">
-      <body className="mx-64">
+      <body className="lg:mx-64 mx-5">
         <Header/>
         {children}
       </body>

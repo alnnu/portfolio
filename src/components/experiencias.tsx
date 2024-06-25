@@ -2,12 +2,13 @@
 import { useState } from "react"
 
 const Experiencias = () => {
-    const experiencias: any = [{nome:"Grupo Crias", titulo:"Freelacer associado ao Grupo Crias", data: "desembro 2023 - atual", responsabilidade:"Trabalhar em projetos freelancers, utilizando pricipalmente em spring, e auxiliar nos projetos dos outros menbros."},
-                                {nome:"Code Tower", titulo:"Programador na Code Tower", data:"setemro 2021 - julho 2023", responsabilidade:`Nessa empresa junior desenvolvi aplicativos frontend e backend utilisando ferramentas como: nextJs, adonisJs, expressJs, docker e tailwind. Alem de poder fazer um workshop de como criar um sistema CRUD em expressJs na Campus Party Goias 2`},
-                                {nome:"Iniciação Cientifica", titulo:"Iniciação Cientifica", data:"setemro 2022 - setembro 2023", responsabilidade:"Pesquicei fiabilidade vinbilidade finaceira de aplicativos desentralizados na rede blockchain do Ethereum. Para isso, desenvolvi um aplicativo de votação simples e usei as metricas para chergar ao gusto de um aplicativo do uso diario"}
+    const experiencias: any = [{nome:"Grupo Crias", titulo:"Freelacer associado ao Grupo Crias", data: "dezembro 2023 - atual", responsabilidade:"Trabalhar em projetos freelancers, utilizando principalmente em spring, e auxiliar nos projetos dos outros membros."},
+                                {nome:"Code Tower", titulo:"Programador na Code Tower", data:"setembro 2021 - julho 2023", responsabilidade:`Nessa empresa júnior desenvolvi aplicativos frontend e backend utilizando ferramentas como: nextJs, adonisJs, expressJs, docker e tailwind. Alem de poder fazer um workshop de como criar um sistema CRUD em expressJs na Campus Party Goias 2`},
+                                {nome:"Iniciação Cientifica", titulo:"Iniciação Cientifica", data:"setembro 2022 - setembro 2023", responsabilidade:"Pesquisei fiabilidade viabilidade financeira de aplicativos descentralizados na rede blockchain do Ethereum. Para isso, desenvolvi um aplicativo de votação simples e usei as metricas para chergar ao gusto de um aplicativo do uso diario"}
     ]
 
-    const [foco, setFoco] = useState(0); 
+    const [foco, setFoco] = useState(0);
+     
     return (
         <>
             <div className="mt-48" id="Experiencias">
