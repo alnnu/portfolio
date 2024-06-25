@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { FaInstagram, FaGithub } from "react-icons/fa6";
 import { BiMailSend } from "react-icons/bi";
+import Experiencias from "@/components/experiencias";
 
 export default function Home() {
   return (
@@ -45,6 +46,8 @@ export default function Home() {
           <p className="mt-3 text-justify">Atualmente estou cursando ciência da computação no IFG de Anápolis e participo de um grupo de freelancers chamado Grupo Crias.</p>
         </div>
       </div>
+
+      <Experiencias/>
    </main>
   );
 }
