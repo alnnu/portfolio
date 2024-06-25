@@ -4,9 +4,17 @@ import { FaInstagram, FaGithub } from "react-icons/fa6";
 import { BiMailSend } from "react-icons/bi";
 import Experiencias from "@/components/experiencias";
 import Habilidades from "@/components/habilidadesCard";
+import ProjetoCard from "@/components/projetoCard";
 
 export default function Home() {
-  const habilidades = [{nome: "frontend", techs:["HTML", "CSS", "Javascript", "Nextjs", "TailWind"]}, {nome: "Backend", techs:["NodeJs", "ExpressJs", "AdonisJs", "Spring", "Postgres"]}, {nome: "Dev-Ops", techs:["Docker", "Nginx", "Git"]}, {nome: "Mobile", techs:["React Native"]}]
+
+  const habilidades = [{nome: "frontend", techs:["HTML", "CSS", "Javascript", "Nextjs", "TailWind"]}, 
+                      {nome: "Backend", techs:["NodeJs", "ExpressJs", "AdonisJs", "Spring", "Postgres"]}, 
+                      {nome: "Dev-Ops", techs:["Docker", "Nginx", "Git"]}, {nome: "Mobile", techs:["React Native"]}]
+
+const projetos = [{nome: "Sistema de Comandas", descricao: "Um site feito para um lava jato cadastrar seus clientes, além de manter suas comandas e assinalas virtualmente.", img: "/projetos/Lava_Jato.png", github: "", link: "",},
+                  {nome: "Site do BCC", descricao: "Um site feito para mostrar informações sobre o curso de bacharelado em Ciências da Computação no IFG de Anápolis", img: "/projetos/bccifg.png", github: "", link: "https://bcc.ifg.edu.br/",}]
+
   return (
    <main>
       <div className="flex mt-52 h-96">
@@ -21,9 +29,9 @@ export default function Home() {
             Sou apenas entusiasta brasileiro que ama a tecnologia no geral e vou ajudar você a desenvolver o sistema dos sonhos!    
           </div>
           <div className="flex  w-60 mt-12">
-            <a href="mailto:contato.alnnu@gmail.com" className="text-primery text-4xl"><BiMailSend/></a>
-            <a href="https://github.com/alnnu" className="text-primery text-4xl mx-10" target="_blank"><FaGithub/></a>
-            <a href="https://www.instagram.com/luann__felipe_/" className="text-primery text-4xl" target="_blank"><FaInstagram/></a>
+            <a href="mailto:contato.alnnu@gmail.com" className="text-primery text-4xl hover:-translate-y-1 transition-transform cursor-pointer"><BiMailSend/></a>
+            <a href="https://github.com/alnnu" className="text-primery text-4xl mx-10 hover:-translate-y-1 transition-transform cursor-pointer" target="_blank"><FaGithub/></a>
+            <a href="https://www.instagram.com/luann__felipe_/" className="text-primery text-4xl hover:-translate-y-1 transition-transform cursor-pointer" target="_blank"><FaInstagram/></a>
           </div>
         </div>
         <div className="flex justify-end flex-1 h-fit">
@@ -57,6 +65,17 @@ export default function Home() {
           {
             habilidades.map((habilidade, index: number) => (
               <Habilidades nome={habilidade.nome} techs={habilidade.techs}/>
+            ))
+          }
+        </div>
+      </div>
+
+      <div className="mt-48" id="Projetos">
+        <h1 className="text-6xl font-bold mb-8 border-b border-primery pb-3 text">Projetos</h1>
+        <div>
+          {
+            projetos.map((projeto, index: number) => (
+              <ProjetoCard projeto={projeto}/>
             ))
           }
         </div>
