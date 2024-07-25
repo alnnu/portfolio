@@ -17,26 +17,25 @@ const projetos = [{nome: "Sistema de Comandas", descricao: "Um site feito para u
 
   return (
    <main>
-      <div className="flex mt-52 h-96">
-        <div className="flex w-1/2 flex-col align-middle">
+      <div className="flex flex-col-reverse desktop:flex-row mt-24 desktop:mt-52">
+        <div className="desktop:w-1/2 mt-10 desktop:mt-0">
           <div className="text-2xl mb-3">
             Ola!! Sou <span className="text-primery">Luann</span>
           </div>
-          <div className="text-8xl font-bold mb-7">
-            Fullstack <br/>Developer
+          <div className="text-5xl desktop:text-8xl font-bold mb-7">
+            Fullstack Developer
           </div>
-          <div className="text-2xl">
+          <div className="text-2xl text-justify tablet:text-left">
             Sou apenas entusiasta brasileiro que ama a tecnologia no geral e vou ajudar você a desenvolver o sistema dos sonhos!    
           </div>
-          <div className="flex  w-60 mt-12">
+          <div className="flex w-60 mt-12">
             <a href="mailto:contato.alnnu@gmail.com" className="text-primery text-4xl hover:-translate-y-1 transition-transform cursor-pointer"><BiMailSend/></a>
             <a href="https://github.com/alnnu" className="text-primery text-4xl mx-10 hover:-translate-y-1 transition-transform cursor-pointer" target="_blank"><FaGithub/></a>
             <a href="https://www.instagram.com/luann__felipe_/" className="text-primery text-4xl hover:-translate-y-1 transition-transform cursor-pointer" target="_blank"><FaInstagram/></a>
           </div>
         </div>
-        <div className="flex justify-end flex-1 h-fit">
-
-          <div className="border border-primery rounded-full p-10">
+        <div className="flex justify-center desktop:justify-end flex-1 desktop:w-1/2">
+          <div className="border border-primery rounded-full p-10 size-fit">
             <Image
               src="/me.jpeg"
               className="rounded-full"
@@ -48,8 +47,8 @@ const projetos = [{nome: "Sistema de Comandas", descricao: "Um site feito para u
         </div>
       </div>
 
-      <div className="mt-96" id="Sobre">
-        <h1 className="text-6xl font-bold mb-8 border-b border-primery pb-3 text">Sobre</h1>
+      <div className="mt-48 laptop:mt-96" id="Sobre">
+        <h1 className="text-4xl tablet:text-6xl font-bold mb-8 border-b border-primery pb-3 text">Sobre</h1>
         <div className="text-xl text-justify">
           <p>Ola, me chamo Luann Felipe, mas pode me chamar de Alnnu. Na minha infância eu adquiri a curiosidade sobre como as coisa funcionam, por isso vivia desmontando controles, carrinhos, entre outras coisa.</p>
           <p className="mt-3 text-justify">Essa curiosidade que futuramente se tornou o amor que sinto pela a computação e suas áreas. Sendo assim, comecei a estudar a estudar programação.</p>
@@ -59,9 +58,9 @@ const projetos = [{nome: "Sistema de Comandas", descricao: "Um site feito para u
 
       <Experiencias/>
 
-      <div className="mt-48" id="Habilidades">
-        <h1 className="text-6xl font-bold mb-8 border-b border-primery pb-3 text">Habilidades</h1>
-        <div className="grid grid-cols-2 gap-x-48 gap-y-32">
+      <div className="mt-48 " id="Habilidades">
+        <h1 className="text-4xl tablet:text-6xl font-bold mb-8 border-b border-primery pb-3 text">Habilidades</h1>
+        <div className="grid grid-cols-none tablet:grid-cols-2 gap-x-48 gap-y-32">
           {
             habilidades.map((habilidade, index: number) => (
               <Habilidades nome={habilidade.nome} techs={habilidade.techs}/>
@@ -71,7 +70,7 @@ const projetos = [{nome: "Sistema de Comandas", descricao: "Um site feito para u
       </div>
 
       <div className="mt-48" id="Projetos">
-        <h1 className="text-6xl font-bold mb-8 border-b border-primery pb-3 text">Projetos</h1>
+        <h1 className="text-4xl tablet:text-6xl font-bold mb-8 border-b border-primery pb-3 text">Projetos</h1>
         <div>
           {
             projetos.map((projeto, index: number) => (

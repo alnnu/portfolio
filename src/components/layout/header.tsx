@@ -8,7 +8,7 @@ const Header = () => {
                     <div className="font-bold flex-1 text-lg">
                         <a href="#">Alnnu</a>
                     </div>
-                    <div className="flex flex-1 justify-center text-lg">
+                    <div className="hidden laptop:flex flex-1 justify-center text-lg">
                         <a href="#" className="mx-5 text-primery">Home</a>
                         <a href="#Sobre" className="mx-5 hover:text-primery">Sobre</a>
                         <a href="#Experiencias" className="mx-5 hover:text-primery">Experiencias</a>

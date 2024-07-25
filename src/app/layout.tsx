@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="latin">
-      <body className="lg:mx-64 mx-5">
+      <body className="laptop:mx-32 mx-5">
         <Header/>
         {children}
         <Footer/>
