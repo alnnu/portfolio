@@ -58,12 +58,12 @@ const projetos = [{nome: "Sistema de Comandas", descricao: "Um site feito para u
 
       <Experiencias/>
 
-      <div className="mt-48 " id="Habilidades">
+      <div className="mt-48" id="Habilidades">
         <h1 className="text-4xl tablet:text-6xl font-bold mb-8 border-b border-primery pb-3 text">Habilidades</h1>
         <div className="grid grid-cols-none tablet:grid-cols-2 gap-x-48 gap-y-32">
           {
             habilidades.map((habilidade, index: number) => (
-              <Habilidades nome={habilidade.nome} techs={habilidade.techs}/>
+              <Habilidades nome={habilidade.nome} techs={habilidade.techs} key={index}/>
             ))
           }
         </div>
@@ -74,7 +74,7 @@ const projetos = [{nome: "Sistema de Comandas", descricao: "Um site feito para u
         <div>
           {
             projetos.map((projeto, index: number) => (
-              <ProjetoCard projeto={projeto}/>
+              <ProjetoCard projeto={projeto} key={index}/>
             ))
           }
         </div>

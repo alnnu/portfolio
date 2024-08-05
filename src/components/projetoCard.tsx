@@ -1,4 +1,3 @@
-import { link } from "fs/promises";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import Link from "next/link";

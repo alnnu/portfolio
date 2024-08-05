@@ -6,7 +6,7 @@ const Habilidades = ({nome, techs}: {nome: String, techs: String[]}) => {
                 <div className="flex flex-wrap auo-cols-auto  justify-center items-center gap-4">
                     {
                         techs.map((tech: any, index: number) => (
-                            <div className="text-center text-white  py-1 w-36 h-9 rounded-full bg-primery">{tech}</div>
+                            <div className="text-center text-white  py-1 w-36 h-9 rounded-full bg-primery" key={index}>{tech}</div>
                         ))
                     }
                 </div>
