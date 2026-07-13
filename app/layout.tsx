@@ -4,6 +4,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import NavBar from "@/components/nav/NavBar"
+import Footer from "@/components/nav/Footer"
 
 const roboto = Roboto({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -28,10 +29,11 @@ export default function RootLayout({
         roboto.variable
       )}
     >
-      <body>
+      <body className="bg-body">
         <ThemeProvider>
           <NavBar />
-          <main className="pt-20">{children}</main>
+          <main className="bg-white pt-20">{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
