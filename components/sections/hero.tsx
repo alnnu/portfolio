@@ -6,7 +6,7 @@ import { Button } from "../ui/button"
 
 export default function Hero() {
   return (
-    <div className="py-24">
+    <div className="py-25">
       <div>
         <Badge
           variant="outline"
@@ -26,9 +26,9 @@ export default function Hero() {
           </p>
 
           <p className="max-w-xl text-xl text-muted-foreground max-lg:text-center">
-            Desenvolvedor backend especializado em sistemas de alta performance
-            com Java e Spring Boot. Apaixonado por Web3, arquitetura de
-            microsserviços e soluções que escalam.
+            Desenvolvedor fullstack especializado em sistemas de alta
+            performance com Java e Spring Boot. Apaixonado por Web3, arquitetura
+            de microsserviços e soluções que escalam.
           </p>
         </div>
         <div className="flex justify-end">
