@@ -1,0 +1,58 @@
+import { projectType } from "../types/projectTypes"
+
+export const projectData: projectType[] = [
+  {
+    img: "./lavajato.png",
+    title: "Sistema de comanadas",
+    desc: "Aplicação full stack para emisão de comanadas para um lavajato. O sistema é responsavel pelo gerenciamento das atividades no lavajato, desto cadastro de serviços, clientes e criação de comanas ate o gerenciamento finaceiro da empresa. Atuei como desenvolvedor responsavel pelo modulo de gerenciamento finaceiro, utilizando spring boot e next Js juntamente como a contribuição na correção continua de bugs",
+    tags: ["Spring Boot", "NextJs", "Docker", "PostgreSQL", "Full Stack"],
+    git: null,
+    demo: null,
+    site: null,
+  },
+  {
+    img: "./laudos.png",
+    title: "Sistema de laudos",
+    desc: "Aplicação web voltada para a emissão de laudos de lavagem de carretas de caminhão. Neste projeto, atuei no desenvolvimento do backend, implementando as regras de negócio, o sistema de autenticação, a geração de relatórios em PDF e a persistência de dados. Para o desenvolvimento da aplicação, utilizei tecnologias como Spring Boot, PostgreSQL e Docker.",
+    tags: ["Spring Boot", "Next Js", "Docker", "PostgreSQL", "Backend"],
+    git: null,
+    demo: null,
+    site: null,
+  },
+  {
+    img: "autogest.png",
+    title: "Autogest",
+    desc: "MVP desenvolvido para a gestão de oficinas mecânicas, permitindo uma visão geral das operações da oficina, além do cadastro e gerenciamento de serviços, clientes e veículos. Atuei como desenvolvedor frontend, utilizando Next.js para a construção da aplicação e shadcn/ui como biblioteca de componentes para a interface.",
+    tags: ["NextJs", "shadcn", "Frontend"],
+    git: "https://github.com/alnnu/AutoGest",
+    demo: "https://autogest.alnnu.com.br/",
+    site: null,
+  },
+  {
+    img: "code.png",
+    title: "Pagina Code Tower",
+    desc: "No site institucional do curso de Ciência da Computação do IFG – Campus Anápolis, atuei como responsável pelo desenvolvimento da página dedicada ao projeto de extensão Code Tower. Para a implementação da interface, utilizei Next.js",
+    tags: ["NextJs", "Frontend"],
+    git: null,
+    demo: null,
+    site: "https://bcc.ifg.edu.br/extensao/empresa-junior",
+  },
+  {
+    img: "mel.png",
+    title: "Palinoteca Virtual",
+    desc: "Projeto de iniciação científica voltado ao desenvolvimento de uma palinoteca virtual, utilizando inteligência artificial para a identificação de imagens de grãos de pólen. Atuei como desenvolvedor full stack, sendo responsável pelo desenvolvimento do backend com Django e PostgreSQL, além do frontend com Next.js. Também fui responsável pelo desenvolvimento do modelo de inteligência artificial, utilizando a arquitetura ResNet-50 como base para a classificação das imagens de pólen.",
+    tags: ["Django", "NextJs", "Docker", "ResNet-50", "IA", "Full Stack"],
+    git: "https://github.com/alnnu/Palinoteca-Virtual-Mel",
+    demo: null,
+    site: null,
+  },
+  {
+    img: "tcc.png",
+    title: "Projeto de Conclusão de Curso",
+    desc: "Projeto desenvolvido como Trabalho de Conclusão de Curso (TCC) em Ciência da Computação. A aplicação utiliza uma blockchain de consórcio baseada no Geth para validar certificados por meio de contratos inteligentes desenvolvidos em Solidity. Os dados dos certificados são armazenados de forma descentralizada utilizando IPFS, enquanto o frontend foi desenvolvido com Next.js. Atuei em todas as etapas do projeto, desde a arquitetura da rede blockchain e o desenvolvimento dos contratos inteligentes até a implementação do frontend e a integração entre os diferentes componentes do sistema.",
+    tags: ["Solidity", "Geth", "IPFS", "NextJs", "descentralização"],
+    git: "https://github.com/alnnu/CertLedger",
+    demo: null,
+    site: null,
+  },
+]

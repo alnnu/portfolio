@@ -11,9 +11,9 @@ export default function SobreMim() {
       </div>
 
       <div className="col-start-3 grid gap-y-8">
-        <span className="text-primary">\\ SOBRE_MIM</span>
+        <span className="text-primary">// SOBRE_MIM</span>
         <h2 className="text-5xl font-bold">
-          Construindo sistemas que{" "}
+          Construindo sistemas que
           <span className="text-primary">importam</span>
         </h2>
         <p className="text-lg">
