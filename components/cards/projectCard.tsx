@@ -11,11 +11,11 @@ import { Badge } from "../ui/badge"
 
 export default function ProjectCard({ project }: { project: projectType }) {
   return (
-    <Card className="relative mx-auto flex w-full max-w-sm flex-col pt-0 transition-transform duration-300 hover:-translate-y-2 hover:border hover:border-primary/45 hover:shadow-xl hover:shadow-primary/15">
+    <Card className="mx-auto flex w-full max-w-sm flex-col transition-transform duration-300 hover:-translate-y-2 hover:border hover:border-primary/45 hover:shadow-xl hover:shadow-primary/15">
       <img
         src={project.img}
         alt="Event cover"
-        className="relative z-20 w-full object-cover"
+        className="z-20 w-full object-cover"
       />
       <CardHeader className="flex-1">
         <CardTitle>{project.title}</CardTitle>

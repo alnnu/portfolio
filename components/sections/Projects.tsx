@@ -9,7 +9,7 @@ export default function Projects() {
     <div>
       <div className="mb-24 text-center">
         <span className="text-primary">// PROJETOS</span>
-        <h2 className="text-5xl font-bold">Projetos em Destaque</h2>
+        <h2 className="mt-8 text-5xl font-bold">Projetos em Destaque</h2>
       </div>
       <div className="grid grid-cols-3 gap-y-12">
         {data.map((project, i) => (

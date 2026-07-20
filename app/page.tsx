@@ -1,6 +1,7 @@
 import Hero from "@/components/sections/hero"
 import Projects from "@/components/sections/Projects"
 import SobreMim from "@/components/sections/SobreMim"
+import Timeline from "@/components/sections/Timeline"
 
 export default function Page() {
   return (
@@ -15,6 +16,10 @@ export default function Page() {
 
       <section className="mt-46">
         <Projects />
+      </section>
+
+      <section className="mt-46">
+        <Timeline />
       </section>
     </div>
   )
