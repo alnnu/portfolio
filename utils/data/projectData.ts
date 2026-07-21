@@ -3,8 +3,8 @@ import { projectType } from "../types/projectTypes"
 export const projectData: projectType[] = [
   {
     img: "./lavajato.png",
-    title: "Sistema de comanadas",
-    desc: "Aplicação full stack para emisão de comanadas para um lavajato. O sistema é responsavel pelo gerenciamento das atividades no lavajato, desto cadastro de serviços, clientes e criação de comanas ate o gerenciamento finaceiro da empresa. Atuei como desenvolvedor responsavel pelo modulo de gerenciamento finaceiro, utilizando spring boot e next Js juntamente como a contribuição na correção continua de bugs",
+    title: "Sistema de comandas",
+    desc: "Aplicação full stack para emisão de comandas para um lavajato. O sistema é responsavel pelo gerenciamento das atividades no lavajato, desde o cadastro de serviços, clientes e criação de comanas ate o gerenciamento financeiro da empresa. Atuei como desenvolvedor responsável pelo modulo de gerenciamento financeiro, utilizando spring boot e next Js juntamente como a contribuição na correção continua de bugs",
     tags: ["Spring Boot", "NextJs", "Docker", "PostgreSQL", "Full Stack"],
     git: null,
     demo: null,
@@ -50,7 +50,7 @@ export const projectData: projectType[] = [
     img: "tcc.png",
     title: "Projeto de Conclusão de Curso",
     desc: "Projeto desenvolvido como Trabalho de Conclusão de Curso (TCC) em Ciência da Computação. A aplicação utiliza uma blockchain de consórcio baseada no Geth para validar certificados por meio de contratos inteligentes desenvolvidos em Solidity. Os dados dos certificados são armazenados de forma descentralizada utilizando IPFS, enquanto o frontend foi desenvolvido com Next.js. Atuei em todas as etapas do projeto, desde a arquitetura da rede blockchain e o desenvolvimento dos contratos inteligentes até a implementação do frontend e a integração entre os diferentes componentes do sistema.",
-    tags: ["Solidity", "Geth", "IPFS", "NextJs", "descentralização"],
+    tags: ["Solidity", "Geth", "IPFS", "NextJs", "Dapp"],
     git: "https://github.com/alnnu/CertLedger",
     demo: null,
     site: null,

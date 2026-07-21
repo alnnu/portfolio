@@ -19,7 +19,7 @@ export const experienciaData: experienciaType[] = [
     id: 3,
     place: "Code Tower",
     title: "Desenvolvedor de software voluntário",
-    desc: "Atuei como desenvolvedor **full stack**, participando do desenvolvimento de aplicações web e do estudo de diferentes tecnologias. Durante esse período, trabalhei com ferramentas como Docker, Java, Spring Boot, Next.js e Node.js. Além das atividades de desenvolvimento, participei de eventos da área de tecnologia e empreendedorismo, destacando minha atuação como palestrante na Campus Party, onde ministrei um workshop sobre Node.js",
+    desc: "Atuei como desenvolvedor full stack, participando do desenvolvimento de aplicações web e do estudo de diferentes tecnologias. Durante esse período, trabalhei com ferramentas como Docker, Java, Spring Boot, Next.js e Node.js. Além das atividades de desenvolvimento, participei de eventos da área de tecnologia e empreendedorismo, destacando minha atuação como palestrante na Campus Party, onde ministrei um workshop sobre Node.js",
     year: "out 2021 - ago 2023",
   },
 ]
