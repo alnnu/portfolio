@@ -12,22 +12,26 @@ import Link from "next/link"
 
 export default function ProjectCard({ project }: { project: projectType }) {
   return (
-    <Card className="mx-auto flex w-full max-w-sm flex-col transition-transform duration-300 hover:-translate-y-2 hover:border hover:border-primary/45 hover:shadow-xl hover:shadow-primary/15">
-      <img
-        src={project.img}
-        alt="Event cover"
-        className="z-20 w-full object-cover"
-      />
-      <CardHeader className="flex-1">
-        <CardTitle>{project.title}</CardTitle>
-        <CardDescription>{project.desc}</CardDescription>
+    <Card className="mx-auto flex h-full w-full max-w-sm flex-col overflow-hidden pt-0 transition-transform duration-300 hover:-translate-y-2 hover:border hover:border-primary/45 hover:shadow-xl hover:shadow-primary/15">
+      <div className="aspect-video w-full overflow-hidden bg-muted">
+        <img
+          src={project.img}
+          alt={project.title}
+          className="h-full w-full object-cover"
+        />
+      </div>
+      <CardHeader className="flex-1 space-y-3 p-5 sm:p-6">
+        <CardTitle className="text-xl font-bold">{project.title}</CardTitle>
+        <CardDescription className="line-clamp-4 text-sm text-muted-foreground">
+          {project.desc}
+        </CardDescription>
 
-        <div className="mt-4 grid grid-cols-3 justify-center gap-x-2 gap-y-4">
+        <div className="mt-4 flex flex-wrap gap-1.5 pt-2">
           {project.tags.map((tag, i) => (
             <Badge
               key={i}
               variant="outline"
-              className="w-full border-primary bg-primary/10 p-3 text-sm text-primary"
+              className="border-primary/40 bg-primary/10 px-2.5 py-1 text-xs text-primary"
             >
               {tag}
             </Badge>
@@ -36,13 +40,17 @@ export default function ProjectCard({ project }: { project: projectType }) {
       </CardHeader>
       {(project.git || project.demo || project.site) && (
         <CardFooter className="mt-auto">
-          <div
-            className={`grid h-full w-full gap-2 ${project.git && project.demo ? "grid-cols-2" : "grid-cols-1"}`}
-          >
+          <div className="flex w-full items-center gap-2">
             {project.git && (
               <Button
-                className="rounded-xl bg-primary/10 p-4 text-sm text-primary hover:text-white"
-                render={<Link href={project.git} />}
+                className="flex-1 rounded-xl bg-primary/10 p-4 text-sm text-primary hover:text-white"
+                render={
+                  <Link
+                    href={project.git}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                }
                 nativeButton={false}
               >
                 GitHub
@@ -50,8 +58,14 @@ export default function ProjectCard({ project }: { project: projectType }) {
             )}
             {project.demo && (
               <Button
-                className="rounded-xl p-4 text-sm text-white"
-                render={<Link href={project.demo} />}
+                className="flex-1 rounded-xl p-4 text-sm text-white"
+                render={
+                  <Link
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                }
                 nativeButton={false}
               >
                 Demo
@@ -59,8 +73,14 @@ export default function ProjectCard({ project }: { project: projectType }) {
             )}
             {project.site && (
               <Button
-                className="rounded-xl p-4 text-sm text-white"
-                render={<Link href={project.site} />}
+                className="flex-1 rounded-xl p-4 text-sm text-white"
+                render={
+                  <Link
+                    href={project.site}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                }
                 nativeButton={false}
               >
                 Link
