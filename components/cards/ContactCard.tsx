@@ -9,7 +9,7 @@ export default function ContactCard() {
       icon: <IconGithub />,
     },
     {
-      label: "linkedin",
+      label: "LinkedIn",
       value: "Luann Felipe",
       icon: <IconLinkedin />,
     },
@@ -20,10 +20,10 @@ export default function ContactCard() {
     },
   ]
   return (
-    <div className="rounded-xl border bg-muted p-10">
-      <h4 className="text-lg font-bold">Canais de Contato</h4>
+    <div className="rounded-xl border bg-muted p-5 sm:p-8 lg:p-10">
+      <h4 className="text-lg sm:text-xl font-bold">Canais de Contato</h4>
 
-      <div className="mt-6 grid grid-rows-3 gap-y-4">
+      <div className="mt-6 flex flex-col gap-y-4">
         {contatos.map((item) => (
           <ContactInfo
             key={item.label}
@@ -36,3 +36,4 @@ export default function ContactCard() {
     </div>
   )
 }
+

@@ -36,7 +36,7 @@ export default function ContactForm() {
     try {
       console.log(values)
       toast(
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
+        <pre className="mt-2 w-full max-w-[340px] rounded-md bg-slate-950 p-4 overflow-x-auto">
           <code className="text-white">{JSON.stringify(values, null, 2)}</code>
         </pre>
       )
@@ -47,14 +47,14 @@ export default function ContactForm() {
   }
 
   return (
-    <form onSubmit={form.handleSubmit(onSubmit)} className="w-full space-y-8">
-      <FieldGroup>
+    <form onSubmit={form.handleSubmit(onSubmit)} className="w-full space-y-6 sm:space-y-8">
+      <FieldGroup className="space-y-4 sm:space-y-6">
         <Controller
           name="Name"
           control={form.control}
           render={({ field, fieldState }) => (
             <Field data-invalid={fieldState.invalid}>
-              <FieldLabel htmlFor="Name">Nome</FieldLabel>
+              <FieldLabel htmlFor="Name" className="text-sm sm:text-base">Nome</FieldLabel>
               <Input
                 {...field}
                 id="Name"
@@ -72,7 +72,7 @@ export default function ContactForm() {
           control={form.control}
           render={({ field, fieldState }) => (
             <Field data-invalid={fieldState.invalid}>
-              <FieldLabel htmlFor="email">Email</FieldLabel>
+              <FieldLabel htmlFor="email" className="text-sm sm:text-base">Email</FieldLabel>
               <Input
                 {...field}
                 id="email"
@@ -91,7 +91,7 @@ export default function ContactForm() {
           control={form.control}
           render={({ field, fieldState }) => (
             <Field data-invalid={fieldState.invalid}>
-              <FieldLabel htmlFor="msg">Mensagem</FieldLabel>
+              <FieldLabel htmlFor="msg" className="text-sm sm:text-base">Mensagem</FieldLabel>
               <Textarea
                 {...field}
                 id="msg"
@@ -104,7 +104,8 @@ export default function ContactForm() {
           )}
         />
       </FieldGroup>
-      <Button type="submit">Enviar</Button>
+      <Button type="submit" className="w-full sm:w-auto">Enviar</Button>
     </form>
   )
 }
+

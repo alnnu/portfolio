@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className="bg-body">
         <ThemeProvider>
           <NavBar />
-          <main className="bg-white px-24 pb-32">{children}</main>
+          <main className="bg-white px-4 sm:px-8 md:px-16 lg:px-24 pb-32">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
