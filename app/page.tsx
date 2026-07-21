@@ -1,3 +1,4 @@
+import Contato from "@/components/sections/Contato"
 import Hero from "@/components/sections/hero"
 import Projects from "@/components/sections/Projects"
 import SobreMim from "@/components/sections/SobreMim"
@@ -20,6 +21,10 @@ export default function Page() {
 
       <section className="mt-46">
         <Timeline />
+      </section>
+
+      <section className="mt-46">
+        <Contato />
       </section>
     </div>
   )
