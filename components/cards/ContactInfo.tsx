@@ -5,7 +5,7 @@ export default function ContactInfo({
 }: {
   label: string
   value: string
-  icon: any
+  icon: React.ReactNode
 }) {
   return (
     <div className="flex h-fit items-center gap-x-4 rounded-xl border bg-background p-4">
