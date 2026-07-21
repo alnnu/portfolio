@@ -4,13 +4,13 @@ import { Badge } from "../ui/badge"
 export default function SobreMim() {
   const tags: string[] = ["backend", "Frontend", "Web3", "DevOps"]
   return (
-    <div className="grid grid-cols-3 items-center">
-      <div className="grid grid-cols-2">
+    <div className="flex items-center justify-between">
+      <div className="grid w-[40%] grid-cols-2">
         <BaseInfoCard title="3+" text="Anos de experiência" />
-        <BaseInfoCard title="6" text="Projetos entregues" />
+        <BaseInfoCard title="6+" text="Projetos entregues" />
       </div>
 
-      <div className="col-start-3 grid gap-y-8">
+      <div className="grid w-[40%] gap-y-8">
         <span className="text-primary">// SOBRE_MIM</span>
         <h2 className="text-5xl font-bold">
           Construindo sistemas que{" "}
