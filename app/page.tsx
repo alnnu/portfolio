@@ -11,19 +11,19 @@ export default function Page() {
         <Hero />
       </section>
 
-      <section className="mt-12">
+      <section className="mt-12" id="sobre">
         <SobreMim />
       </section>
 
-      <section className="mt-46">
+      <section className="mt-46" id="projetos">
         <Projects />
       </section>
 
-      <section className="mt-46">
+      <section className="mt-46" id="experiencia">
         <Timeline />
       </section>
 
-      <section className="mt-46">
+      <section className="mt-46" id="contato">
         <Contato />
       </section>
     </div>

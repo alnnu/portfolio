@@ -1,7 +1,7 @@
-"use cliente"
 import { ArrowRightIcon } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "../ui/button"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -34,7 +34,7 @@ export default function Hero() {
           <Button
             size="lg"
             className="rounded-xl p-6 text-lg text-white"
-            render={<a href="#" />}
+            render={<Link href="#projetos" />}
             nativeButton={false}
           >
             Ver projetos

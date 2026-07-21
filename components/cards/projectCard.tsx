@@ -8,6 +8,7 @@ import {
 import { projectType } from "@/utils/types/projectTypes"
 import { Button } from "../ui/button"
 import { Badge } from "../ui/badge"
+import Link from "next/link"
 
 export default function ProjectCard({ project }: { project: projectType }) {
   return (
@@ -41,7 +42,7 @@ export default function ProjectCard({ project }: { project: projectType }) {
             {project.git && (
               <Button
                 className="rounded-xl bg-primary/10 p-4 text-sm text-primary hover:text-white"
-                render={<a href={project.git} />}
+                render={<Link href={project.git} />}
                 nativeButton={false}
               >
                 GitHub
@@ -50,7 +51,7 @@ export default function ProjectCard({ project }: { project: projectType }) {
             {project.demo && (
               <Button
                 className="rounded-xl p-4 text-sm text-white"
-                render={<a href={project.demo} />}
+                render={<Link href={project.demo} />}
                 nativeButton={false}
               >
                 Demo
@@ -59,7 +60,7 @@ export default function ProjectCard({ project }: { project: projectType }) {
             {project.site && (
               <Button
                 className="rounded-xl p-4 text-sm text-white"
-                render={<a href={project.site} />}
+                render={<Link href={project.site} />}
                 nativeButton={false}
               >
                 Link

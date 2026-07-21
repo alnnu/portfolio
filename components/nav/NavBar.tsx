@@ -21,23 +21,19 @@ export default function NavBar() {
 
   const menuItens: { link: string; name: string }[] = [
     {
-      link: "#",
+      link: "#sobre",
       name: "Sobre",
     },
     {
-      link: "#",
-      name: "Tecnologias",
-    },
-    {
-      link: "#",
+      link: "#projetos",
       name: "Projetos",
     },
     {
-      link: "#",
+      link: "#experiencia",
       name: "Experiência",
     },
     {
-      link: "#",
+      link: "#contato",
       name: "Contato",
     },
   ]
@@ -54,7 +50,7 @@ export default function NavBar() {
       <nav className="flex items-center justify-between px-12 py-6">
         <div>
           <Link
-            href="#"
+            href="/"
             className="rounded-xl bg-primary p-3 font-bold text-white"
           >
             LF
@@ -79,7 +75,7 @@ export default function NavBar() {
         </div>
         <div>
           <Link
-            href="#"
+            href="#contato"
             className="inline-block rounded-xl bg-primary px-6 py-3 font-bold text-white transition-all duration-200 hover:-translate-y-0.5 hover:brightness-90"
           >
             Vamos conversar
